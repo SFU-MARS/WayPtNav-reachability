@@ -11,8 +11,8 @@ More code information on WayPtNav, please see [WayPtNav_README.md](WayPtNav-READ
 ## Setup
 ### Setup A Virtual Environment
 ```
-conda create -n venv-mpc python=3.6
-source activate venv-mpc
+conda create -n WayPtNav-reachability python=3.6
+source activate WayPtNav-reachability
 pip install -U pip
 ```
 
