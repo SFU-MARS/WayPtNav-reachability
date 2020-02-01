@@ -45,8 +45,9 @@ p.dir = 'PATH/TO/DATA/control_pipelines'
 ##### Configure the Reachability Data Directory
 In ./params/reachability_map/reachability_map_params.py change the following line
 ```
-p.MATLAB_PATH = 'PATH/TO/PROJECT/WayPtNav/reachability'
+p.MATLAB_PATH = 'PATH/TO/PROJECT/reachability'
 ```
+MATLAB_PATH should be set to ./reachability to project folder.
 #####
 ##### Configure the Stanford Building Parser Dataset Data Directory
 In ./params/renderer_params.py change the following line
