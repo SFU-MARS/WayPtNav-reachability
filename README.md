@@ -169,7 +169,7 @@ PYOPENGL_PLATFORM=egl PYTHONPATH='.' python PATH/TO/PROJECT/executables/rgb/resn
 ```
 
 ## Citing This Work
-If you use the WayPtNav simulator or algorithms in your research please cite:
+If you use the WayPtNav-reachability simulator or algorithms in your research please cite:
 ```
 @article{li2019generating,
   title={Generating Robust Supervision for Learning-Based Visual Navigation Using Hamilton-Jacobi Reachability},
