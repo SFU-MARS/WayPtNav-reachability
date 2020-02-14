@@ -29,7 +29,15 @@ If the script fails there are instructions in apply_patches_3.sh describing how 
 
 ### Download the necessary data (~13 GB)
 ```
-TODO: Put Something Here
+# To download the data via the command line run the following
+pip install gdown
+gdown https://drive.google.com/uc?id=1wpQMm_pfNgPAUduLjUggTSBs6psavJSK
+
+# To download the data via your browser visit the following url
+https://drive.google.com/file/d/1wpQMm_pfNgPAUduLjUggTSBs6psavJSK/view?usp=sharing
+
+# Unzip the file LB_WayPtNav_Data.tar.gz
+tar -zxf LB_WayPtNav_Data.tar.gz -C DESIRED_OUTPUT_DIRECTORY
 ```
 #### (Optional). Download the training data used in training the model-based and end-to-end methods. (~82 GB)
 ```
